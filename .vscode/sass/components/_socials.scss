@@ -1,0 +1,39 @@
+// .socials {
+//   @include gapFlex($gap: 10px);
+
+//   justify-content: center;
+// }
+
+// .socials__link {
+//   @include centerFlex();
+
+//   width: 44px;
+//   height: 44px;
+
+//   border-radius: 50%;
+
+//   &--main-fill {
+//     fill: var(--primary-svg-fill);
+//     background-color: #fff;
+
+//     transition: color var(--duration-timing-function),
+//       background-color var(--duration-timing-function);
+//   }
+
+//   &--footer-fill {
+//     fill: var(--secondary-svg-fill);
+//     background-color: var(--secondary-svg-bg-color);
+
+//     transition: background-color var(--duration-timing-function);
+//   }
+
+//   &:hover,
+//   &:focus {
+//     background-color: var(--accent-color);
+//     fill: var(--secondary-svg-fill);
+//   }
+// }
+
+// .socials__icon {
+//   transition: background-color var(--duration-timing-function), fill var(--duration-timing-function);
+// }

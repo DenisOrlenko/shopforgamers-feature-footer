@@ -1,0 +1,28 @@
+// /* .logo-web - синий логотип */
+// .page-header__logo {
+//   display: block;
+//   @include padding-vertical(16px, 16px);
+
+//   @media screen and (min-width: 768px) {
+//     @include padding-vertical(26px, 26px);
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     @include padding-vertical(24px, 25px);
+//   }
+// }
+
+// .logo {
+//   font-family: 'Raleway', sans-serif;
+//   @include font($fz: 24px, $lh: 1.17, $fw: 700, $ls: 0.03em, $color: var(--accent-color));
+
+//   /* Studio - черный цвет */
+//   &__accent--black {
+//     color: var(--logo-black-color);
+//   }
+
+//   /* Studio - белый цвет */
+//   &__accent--white {
+//     color: var(--secondary-text-color);
+//   }
+// }

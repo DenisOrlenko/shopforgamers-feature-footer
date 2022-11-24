@@ -1,0 +1,40 @@
+/* Добавление в Body: основной цвет и шрифт текста + фон */
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+
+  // для того, чтобі контент сайта сжимался при уменьшении ширині устройства
+  // min-width: 480px;
+  // margin-left: auto;
+  // margin-right: auto;
+}
+
+// body.modal-open {
+//   overflow: hidden;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* .list Убираем маркеры с нужных нам списков */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}

@@ -1,0 +1,63 @@
+:root {
+  /* Color */
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --title-text-color: #212121;
+  --logo-black-color: #000000;
+  --accent-color: #2196f3;
+  --hero-overlay: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
+  --hero-bg-color: #c4c4c4;
+  --button-active-color: #188ce8;
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --backdrop-bg: rgba(0, 0, 0, 0.2);
+
+  /* svg */
+  --primary-svg-fill: #afb1b8;
+  --secondary-svg-fill: #fff;
+  --primary-svg-bg-color: #fff;
+  --secondary-svg-bg-color: rgba(255, 255, 255, 0.1);
+  --modal-svg-fill: #212121;
+  /* Decoration */
+  /* border */
+  --border-under-header: #ececec;
+  --border-under-item: #eeeeee;
+  --modal-border: rgba(33, 33, 33, 0.2);
+  /* shadow */
+  --shadow-hero-button: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --shadow-portfolio-button: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --shadow-example: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  --shadow-modal: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  /* transition (css-переходы) */
+  --duration-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Geometry */
+  /* отступ между элементами списка (кроме меню навигации) */
+  --list-gap: 30px;
+  /* -1 * var(--list-gap) = -30px  */
+
+  // Breakpoints
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1200px;
+}
+
+/* основной цвет текста (прозрачный) #757575  */
+
+/* вторичный цвет текста (черный) #212121 */
+
+/* третий цвет текста (белый) #ffffff */
+
+/* основной фон (белый)  #ffffff */
+
+/* второй фон (белый с прозрачностью) #f5f4fA (наша команда) */
+
+/* третий фон футера + эффиктивные решения (серый) #2f303a */
+
+/* акцент #2196f3 */
+
+/* кнопка Hero - фон #188CE8 */

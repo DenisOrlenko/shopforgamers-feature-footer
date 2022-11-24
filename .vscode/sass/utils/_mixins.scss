@@ -1,0 +1,62 @@
+@mixin hero-title(
+  $font-size: 26px,
+  $line-height: 1.62,
+  $margin-left: auto,
+  $font-weight: 900,
+  $text-align: center,
+  $letter-spacing: 0.06em,
+  $text-transform: uppercase,
+  $color: var(--secondary-text-color),
+  $margin-right: auto,
+  $margin-bottom: 30px
+) {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+
+@mixin circle-bordered($color, $radius) {
+  border: 1px solid $color;
+  border-radius: $radius;
+}
+
+@mixin centerFlex() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin gapFlex($gap: var(--list-gap)) {
+  display: flex;
+  gap: $gap;
+}
+
+@mixin font($fz: 14px, $lh: 1.14, $fw: 400, $ls: 0.01em, $color: var(--title-text-color)) {
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+  letter-spacing: $ls;
+  color: $color;
+}
+
+@mixin position($position, $top: null, $bottom: null, $left: null, $right: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin padding-vertical($padding-top, $padding-bottom) {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}

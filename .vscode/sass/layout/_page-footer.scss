@@ -1,0 +1,61 @@
+/* фон - футер */
+.link .page-footer {
+  @include padding-vertical(60px, 60px);
+
+  text-align: center;
+
+  background-color: var(--footer-bg-color);
+
+  @media screen and (min-width: 1200px) {
+    text-align: unset;
+  }
+}
+
+.page-footer__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 89px;
+    padding-left: 76px;
+  }
+}
+
+.logo-address {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: unset;
+  }
+}
+
+.page-footer__logo {
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.page-footer__social-thumb {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 5px;
+    margin-left: 165px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
+}
+
+.social-thumb__title {
+  margin-bottom: 20px;
+
+  color: var(--secondary-text-color);
+}

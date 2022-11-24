@@ -1,0 +1,60 @@
+// .site-nav {
+//   @media screen and (max-width: 767px) {
+//     display: none;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     @include gapFlex($gap: 50px);
+//     margin-left: 88px;
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     margin-left: 93px;
+//   }
+// }
+
+// /* Подчеркивание текущей страницы - relative */
+// .site-nav__item {
+//   @media screen and (min-width: 768px) {
+//     position: relative;
+//   }
+// }
+
+// /* site-nav цвет списка ссылок */
+// .site-nav__link {
+//   @media screen and (min-width: 768px) {
+//     display: block;
+
+//     @include padding-vertical(32px, 32px);
+
+//     @include font($fz: 14px, $lh: 1.14, $fw: 500, $ls: 0.02em, $color: var(--title-text-color));
+
+//     transition: color var(--duration-timing-function);
+//   }
+
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-color);
+//   }
+// }
+
+// /* current - Позиционирование открытой ссылки на текущей странице - задаю цвет текста*/
+// .site-nav__link--current {
+//   color: var(--accent-color);
+
+//   /* Подчеркивание текущей страницы - absolute */
+//   &::after {
+//     content: '';
+//     @include position(absolute, $bottom: 0, $left: 50%);
+//     transform: translateX(-50%);
+
+//     width: calc(100% + 4px);
+//     height: 4px;
+//     // width: 100%;
+
+//     background-color: var(--accent-color);
+//     border-radius: 2px;
+
+//     z-index: 1;
+//   }
+// }
